@@ -1,0 +1,2 @@
+ALTER TABLE `%PREFIX%races` CHANGE `img` `img` VARCHAR(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NULL DEFAULT NULL;
+UPDATE `%PREFIX%conf` SET `sge_ver`= 138 WHERE `sge_ver`= 137;

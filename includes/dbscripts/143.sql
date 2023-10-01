@@ -1,0 +1,4 @@
+ALTER TABLE `%PREFIX%city` ADD `loyality` FLOAT UNSIGNED NOT NULL DEFAULT '100' AFTER `type`;
+ALTER TABLE `%PREFIX%city` DROP `type`;
+
+UPDATE `%PREFIX%conf` SET `sge_ver`= 144 WHERE `sge_ver`= 143;

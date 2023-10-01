@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /controllers/
+Disallow: /framework/
+Disallow: /install/
+Disallow: /languages/
+Disallow: /templates/
+Disallow: /includes/
